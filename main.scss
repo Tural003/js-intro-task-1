@@ -93,6 +93,7 @@ section {
             background-color: #565abb;
             border-radius: 15px;
             gap: 30px;
+            position: relative;
 
             .container2 {
                 margin-left: 10px;
@@ -143,14 +144,78 @@ section {
                     .cardName {
                         display: flex;
                         flex-direction: column;
+                        margin-top: 10px;
+                        input{
+                            background-color: #6268C6;
+                            border-radius: 6px;
+                            border: none;
+                            padding: 10px;
+                            width: 90%;
+                        }
                     }
 
                     .cardDate {
                         display: flex;
-                        flex-wrap: wrap;
-                        gap: 25px;
+                        flex-direction: row;
+                        input{
+                            background-color: #6268C6;
+                            border-radius: 6px;
+                            border: none;
+                            padding: 10px;
+                            width: 70%;
+                        }
+                        .card-date{
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .card-vertification{
+                            display: flex;
+                            flex-direction: column;
+                        }
                     }
 
+                    .scline{
+                        margin-top: 10px;
+                        width: 90%;
+                        height: 3px;
+                        background-color: #1e1e1e;
+                    }
+                    .total{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                    }
+                    .assign{
+                        margin-right: 10px;
+                    }
+                    .btn{
+                        width: 30%;
+                        padding: 20px;
+                        button{
+                            border-radius: 12px;
+                        background-color: #4DE1C1;
+                        position: absolute;
+                        bottom: 3px;
+                        left: 30px;
+                        right: 30px;
+                        border: none;
+                        span{
+                            margin-left: 100px;
+                        }
+                        }
+                    }
+                    // button{
+                    //     border-radius: 12px;
+                    //     background-color: #4DE1C1;
+                    //     position: absolute;
+                    //     bottom: 3px;
+                    //     left: 30px;
+                    //     right: 30px;
+                    //     border: none;
+                    //     span{
+                    //         margin-left: 100px;
+                    //     }
+                    // }
                 }
             }
         }
